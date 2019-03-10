@@ -1,19 +1,20 @@
 import React from "react";
 import ProductData from "./components/ProductData";
 import Product from "./components/Product";
+import Butt from "./components/Product";
 
 function App() {
-  const productComponet = ProductData.map(item => (
+  const productComponent = ProductData.map(item => (
     <Product key={item.id} product={item} />
   ));
 
-  return <div>{productComponet}</div>;
+  return <div>{productComponent}</div>;
 }
 
 export default App;
 
 // function App() {
-//   const productComponet = ProductData.map(product => (
+//   const productComponent = ProductData.map(product => (
 //     <Product
 //       key={product.id}
 //       name={product.name}
@@ -22,7 +23,7 @@ export default App;
 //     />
 //   ));
 
-//   return <div>{productComponet}</div>;
+//   return <div>{productComponent}</div>;
 // }
 
 // import Footer from "./components/Footer";

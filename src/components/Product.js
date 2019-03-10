@@ -15,5 +15,14 @@ function Product(props) {
     </div>
   );
 }
+// export default class Butt extends Component {
+//   constructor(props) {
+//     super(props);
+//     this.handleClick = this.handleClick.bind(this);
+//   }
+//   handleClick(e) {
+//     console.log("Hey");
+//   }
+// }
 
 export default Product;
